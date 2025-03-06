@@ -5,7 +5,7 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.model_selection import train_test_split
 
 # Select how far back to analyze
-HISTORY_DEPTH = 1000  # Number of past draws to analyze
+HISTORY_DEPTH = 500  # Number of past draws to analyze
 ACCURACY_CHECK = 10   # Number of recent draws to compare predictions with
 
 # Define column names based on dataset structure
